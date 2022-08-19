@@ -5,7 +5,26 @@
     <ul>
         <li *ngFor="let author of authors">
             {{ author }}
+            <button (click)="backGroundChange()" class="btn btn-primary" 
+            [style.background]="background">Save</button>
         </li>
     </ul>
+    <h2>
+        Title: 
+    </h2> {{ author.title}} <br>       <h2> Name: </h2>{{ author.name | uppercase}}  <h2>Surname:</h2>     {{ author.surname}} <br>
+       <h3>
+        Age:
+       </h3>  {{ author.age | currency: 'EUR'}} <br>
+        <h3>
+            University:
+        </h3>
+        {{ author.University}} <br>
+        <h3>
+            Date:
+        </h3>{{ author.enterDate | date: 'shortDate'}} <br>
+        <h3>
+            E-mail:
+        </h3>{{ author.email}}
+   
 </div>
  
