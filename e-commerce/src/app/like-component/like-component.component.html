@@ -1,0 +1,11 @@
+<p>like-component works!</p>
+
+<div class="heart">
+    <span class="glyphicon glyphicon-heart"
+        [class.highlighted]="isActive"
+        (click)="addOrReduceLikes()">
+    </span>
+    <span>
+        {{ likesCount }}
+    </span>
+</div>

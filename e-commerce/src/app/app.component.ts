@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'e-commerce';
+  onFavouriteChanged() { 
+    console.log('Favourite changed')
+  }
+
+  tweets ={
+    body: '',
+    isLiked: false,
+    likeCount: 5
+  }
+
+  
 }

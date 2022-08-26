@@ -1,3 +1,10 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<style>
+  .glyphicon{
+          color: green;
+        }
+</style>
 <div>
     <h1>
       {{ authors.length}}  Authors
@@ -5,10 +12,20 @@
     <ul>
         <li *ngFor="let author of authors">
             {{ author }}
-            <button (click)="backGroundChange()" class="btn btn-primary" 
+            <button (click)="backGroundChange()" class="btn btn-primary m-5" 
             [style.background]="background">Save</button>
+            <button class="btn btn-warning" (click)="changeStar()">
+                <span class="glyphicon"
+                      [class.glyphicon-star]="isClicked"
+                      [class.glyphicon-star-empty]="!isClicked"
+                      (click)="changeStar"></span>
+            </button>
         </li>
     </ul>
+    <input [(ngModel)]="txt"  type="text"/>
+    <div>
+        <h1> {{ txt | titlecase }}</h1>
+    </div>
     <h2>
         Title: 
     </h2> {{ author.title}} <br>       <h2> Name: </h2>{{ author.name | uppercase}}  <h2>Surname:</h2>     {{ author.surname}} <br>
