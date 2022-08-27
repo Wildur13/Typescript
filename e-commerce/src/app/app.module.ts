@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { AuthorsService } from './authors.service';
 import { AuthorsComponent } from './authors/authors.component';
 import { LikeComponentComponent } from './like-component/like-component.component';
+import { ZippyComponent } from './zippy/zippy.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AuthorsComponent,
     LikeComponentComponent,
+    ZippyComponent,
   ],
   imports: [
     BrowserModule, 
