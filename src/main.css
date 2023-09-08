@@ -1,0 +1,177 @@
+
+.projectBox .projecthead{
+    width: 420px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.head .projectname button{
+    border: none;
+    background-color: white;
+    color: #1962A5;
+    margin-left: 5px;
+
+}
+
+.projectcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectcontainer .delete{
+    margin-right: 10px;
+    color: red;
+    border: none;
+    background-color:white;
+}
+
+.projectBox{
+    border-right: 1.5px solid black;
+}
+
+.projectBox .line{
+    padding: 1px;
+    width: 90%;
+    background-color: grey;
+    margin: 20px auto;
+
+}
+
+.projectBox .projecthead #btn{
+    background-color: #1962A5;
+    width: 2vw;
+    height:3vh;
+    color: white;
+    font-weight: bold;
+}
+
+.projectBox .projecthead #btn:hover{
+    background-color: #0e7fe9;
+}
+
+.description{
+    display: flex;
+    justify-content:flex-start;
+    margin: 20px auto;
+}
+
+.project .container {
+    display: flex;
+}
+
+.project .container button{
+    background-color: white;
+    border: none;
+}
+
+.project .cardproject{
+    margin: 10px 10px;
+}
+
+.description h5{
+    text-decoration: underline;
+}
+
+.description p{
+    text-align: left;
+}
+
+.branch .branches{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.branch .branches .add{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 30px;
+    gap: 20px;
+}
+
+.branch #dropdown-basic{
+    background-color: rgb(185, 185, 185);
+    border: none;
+    color: black;
+}
+
+.branch .branches h6{
+    color: #1962A5;
+}
+
+.branch .branches .add #btn{
+    background-color: #1962A5;
+    color: white;
+    font-weight: bold;
+    height: 3vh;
+}
+
+.branch .branches .add #btn:hover{
+    background-color: #0e7fe9;
+}
+
+.description #text{
+    margin: 0 10px;
+}
+
+.projectname{
+    display: flex;
+    width: 270px;
+    justify-content: flex-start;
+    align-items: center;
+    color: #1962A5;
+}
+
+.displayBox{
+    flex: 1;
+    padding: 10px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head .info{
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.head .info .inficon{
+    color: #1962A5;
+    font-weight: bold;
+}
+
+.head .info strong{
+    text-decoration: underline;
+}
+
+.search{
+    display: flex;
+    justify-content: space-around;
+}
+
+.boxes{
+    margin: 15px  10px;
+}
+
+.dialog #cancel{
+    background-color: red;
+    color: white;
+}
+
+.dialog #create{
+    background-color: #1962A5;
+    color: white;
+}
