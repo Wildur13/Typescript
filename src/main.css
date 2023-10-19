@@ -1,6 +1,14 @@
+.main  #separatedline{
+    border: thin solid #000000;
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    margin-left: 500px
+}
+
 
 .projectBox .projecthead{
-    width: 420px;
+    width: 500px;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -20,17 +28,35 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 
-.projectcontainer .delete{
-    margin-right: 10px;
+.projectcontainer .container{
+    display: flex;
+    align-items: center;
+}
+
+.projectcontainer .container #date{
+    margin-left: 20px
+}
+
+.projectcontainer .container #head{
+    display: flex;
+}
+
+.projectList .delete{
+    margin-right: 20px;
     color: red;
     border: none;
     background-color:white;
 }
 
-.projectBox{
-    border-right: 1.5px solid black;
+.projectList .delete #trash{
+    width: 25px
+}
+
+.projectcontainer .container button{
+    z-index: 2;
 }
 
 .projectBox .line{
@@ -59,17 +85,29 @@
     margin: 20px auto;
 }
 
-.project .container {
-    display: flex;
-}
-
 .project .container button{
     background-color: white;
     border: none;
 }
 
+.project .container #date{
+    color: rgba(96, 95, 95, 0.509);
+}
+
 .project .cardproject{
     margin: 10px 10px;
+    width: 85%;
+}
+
+.project .cardproject .branch{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 50px;
+}
+
+.project .projectList{
+    display: flex;
+    justify-content: space-between
 }
 
 .description h5{
@@ -174,4 +212,13 @@
 .dialog #create{
     background-color: #1962A5;
     color: white;
+}
+
+.branches .dialog .choice{
+    margin: 10px auto;
+    display: flex;
+}
+
+.dialog #addText {
+    margin: 10px 30px 10px 0;
 }

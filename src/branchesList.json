@@ -1,0 +1,122 @@
+[
+    {
+      "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "@type": "Branch",
+      "created": "1970-01-01T00:00:00.000Z",
+      "head": {
+        "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+      },
+      "name": "main",
+      "owningProject": {
+        "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+      },
+      "referencedCommit": {
+        "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+      }
+    },
+    {
+        "@id": "3fa85f64-5718-4562-b3fc-2c963f66afa6",
+        "@type": "Branch",
+        "created": "1970-01-01T00:00:00.000Z",
+        "head": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        },
+        "name": "string",
+        "owningProject": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        },
+        "referencedCommit": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        }
+      },
+    {
+        "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "@type": "Branch",
+        "created": "1970-01-01T00:00:00.000Z",
+        "head": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        },
+        "name": "main",
+        "owningProject": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa7"
+        },
+        "referencedCommit": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        }
+      },
+      {
+        "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "@type": "Branch",
+        "created": "1970-01-01T00:00:00.000Z",
+        "head": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        },
+        "name": "main",
+        "owningProject": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa8"
+        },
+        "referencedCommit": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        }
+      },
+      {
+        "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "@type": "Branch",
+        "created": "1970-01-01T00:00:00.000Z",
+        "head": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        },
+        "name": "string",
+        "owningProject": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa10"
+        },
+        "referencedCommit": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        }
+      },
+      {
+        "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "@type": "Branch",
+        "created": "1970-01-01T00:00:00.000Z",
+        "head": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        },
+        "name": "string",
+        "owningProject": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa10"
+        },
+        "referencedCommit": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        }
+      },
+      {
+        "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "@type": "Branch",
+        "created": "1970-01-01T00:00:00.000Z",
+        "head": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        },
+        "name": "string",
+        "owningProject": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa10"
+        },
+        "referencedCommit": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        }
+      },
+      {
+        "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "@type": "Branch",
+        "created": "1970-01-01T00:00:00.000Z",
+        "head": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        },
+        "name": "string",
+        "owningProject": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa9"
+        },
+        "referencedCommit": {
+          "@id": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+        }
+      }
+  ]
